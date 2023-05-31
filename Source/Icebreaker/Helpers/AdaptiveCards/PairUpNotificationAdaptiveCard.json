@@ -1,4 +1,4 @@
-﻿{
+{
   "type": "AdaptiveCard",
   "body": [
     {
@@ -12,33 +12,18 @@
           "wrap": true,
           "maxLines": 2,
           "horizontalAlignment": "${textAlignment}"
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "items": [
-        {
-          "type": "Container",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "${matchUpCardMatchedText}",
-              "wrap": true,
-              "horizontalAlignment": "${textAlignment}"
-            }
-          ]
         },
         {
-          "type": "Container",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "${matchUpCardContentPart1}",
-              "wrap": true,
-              "horizontalAlignment": "${textAlignment}"
-            }
-          ]
+          "type": "TextBlock",
+          "text": "${matchUpCardMatchedText}",
+          "wrap": true,
+          "horizontalAlignment": "${textAlignment}"
+        },
+        {
+          "type": "TextBlock",
+          "text": "${matchUpCardContentPart1}",
+          "wrap": true,
+          "horizontalAlignment": "${textAlignment}"
         },
         {
           "type": "TextBlock",
